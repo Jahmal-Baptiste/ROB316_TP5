@@ -1,0 +1,7 @@
+﻿(define (problem GRAHP_SEARCH)
+(:domain GRAPH)
+(:objects A B C D E )
+(:INIT (ON A) (CONNECT A B) (CONNECT A C) (CONNECT C B) (CONNECT C E) (CONNECT B D)
+ (CONNECT B E) (CONNECT D E))
+(:goal (ON E))
+)

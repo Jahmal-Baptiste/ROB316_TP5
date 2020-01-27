@@ -1,0 +1,6 @@
+﻿(define (problem HANOIGAME)
+(:domain HANOI)
+(:objects D1 D2 )
+(:INIT (CLEARPEG2) (CLEARPEG3) (ONPEG1 D2) (ON D1 D2) (CLEAR D1) (HANDEMPTY))
+(:goal (AND (CLEARPEG1) (CLEARPEG2) (ONPEG3 D2) (ON D1 D2) (CLEAR D1) (HANDEMPTY)))
+)

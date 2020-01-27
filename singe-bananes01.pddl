@@ -1,0 +1,6 @@
+﻿(define (problem SINGEAFFAME)
+(:domain SINGE)
+(:objects A B C )
+(:INIT (POSITIONSINGE A) (POSITIONCAISSE B) (POSITIONBANANE C) (NOT (MAINPLEINE)) (NOT (MONTE)))
+(:goal (MAINPLEINE))
+)
